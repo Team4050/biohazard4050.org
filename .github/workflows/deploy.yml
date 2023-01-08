@@ -1,0 +1,17 @@
+name: Deploy Application
+
+on:
+  push:
+    tags:
+      - "*" # Push events to every tag not containing /
+jobs:
+  deploy-web:
+    name: Deploy Web
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy Stage
+        uses: fjogeleit/http-request-action@master
+        with:
+          url: ${{ secrets.CF_PAGES_HOOK }}
+          method: "POST"
