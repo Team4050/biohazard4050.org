@@ -1,29 +1,14 @@
 :root {
   --ifm-font-family-base: var(--mantine-font-family);
 
-  --ifm-color-primary-darkest: var(--mantine-color-brand-blue-9);
-  --ifm-color-primary-darker: var(--mantine-color-brand-blue-8);
-  --ifm-color-primary-dark: var(--mantine-color-brand-blue-7);
-  --ifm-color-primary: var(--mantine-color-brand-blue-6);
-  --ifm-color-primary-light: var(--mantine-color-brand-blue-5);
-  --ifm-color-primary-lighter: var(--mantine-color-brand-blue-4);
-  --ifm-color-primary-lightest: var(--mantine-color-brand-blue-3);
+  --ifm-color-primary-darkest: var(--mantine-color-brand-green-9);
+  --ifm-color-primary-darker: var(--mantine-color-brand-green-8);
+  --ifm-color-primary-dark: var(--mantine-color-brand-green-7);
+  --ifm-color-primary: var(--mantine-color-brand-green-6);
+  --ifm-color-primary-light: var(--mantine-color-brand-green-5);
+  --ifm-color-primary-lighter: var(--mantine-color-brand-green-4);
+  --ifm-color-primary-lightest: var(--mantine-color-brand-green-3);
   --ifm-background-color: var(--mantine-color-white);
-}
-
-[data-theme="light"] {
-  --ifm-link-color: var(--mantine-color-brand-blue-6);
-}
-
-[data-theme="dark"] {
-  --ifm-background-color: var(--mantine-color-black);
-  --ifm-color-primary-darkest: var(--mantine-color-brand-yellow-9);
-  --ifm-color-primary-darker: var(--mantine-color-brand-yellow-8);
-  --ifm-color-primary-dark: var(--mantine-color-brand-yellow-7);
-  --ifm-color-primary: var(--mantine-color-brand-yellow-6);
-  --ifm-color-primary-light: var(--mantine-color-brand-yellow-5);
-  --ifm-color-primary-lighter: var(--mantine-color-brand-yellow-4);
-  --ifm-color-primary-lightest: var(--mantine-color-brand-yellow-3);
 }
 
 /* inter-100 - latin */

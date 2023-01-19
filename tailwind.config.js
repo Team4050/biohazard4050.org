@@ -188,8 +188,8 @@ module.exports = {
         sans: ["Inter var", "sans-serif"],
       },
       colors: {
-        primary: "var(--mantine-color-brand-yellow-6)",
-        green: "var(--mantine-color-brand-green-6)",
+        primary: "var(--mantine-color-brand-green-6)",
+        yellow: "var(--mantine-color-brand-yellow-6)",
         orange: "var(--mantine-color-brand-orange-6)",
         blue: "var(--mantine-color-brand-blue-6)",
         gray: "var(--mantine-color-brand-gray-6)",
