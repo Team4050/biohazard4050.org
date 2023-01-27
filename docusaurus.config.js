@@ -29,7 +29,7 @@ const config = {
       navbar: {
         title: "Biohazard 4050",
         logo: {
-          src: "img/svg/logo-color.svg",
+          src: "img/logo-color.svg",
         },
         items: [
           {
