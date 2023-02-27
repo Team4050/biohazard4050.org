@@ -3,6 +3,7 @@
     "bradlc.vscode-tailwindcss",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "yzhang.markdown-all-in-one"
+    "yzhang.markdown-all-in-one",
+    "astro-build.astro-vscode"
   ]
 }
